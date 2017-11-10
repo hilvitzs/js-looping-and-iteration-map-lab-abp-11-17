@@ -5,12 +5,10 @@ function lowerCaseDrivers(drivers) {
   })
 }
 
-function nameToAttributes() {
+function nameToAttributes(drivers) {
   return drivers.map(function(driver) {
-    let firstName = driver.split(' ')
+    let firstName = driver.split(' ');
+
     console.log(firstName)
-    // return Object.assign({}, {
-    //   firstName:
-    // })
   })
 }
