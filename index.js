@@ -13,3 +13,7 @@ function nameToAttributes(drivers) {
     return Object.assign({}, {firstName: firstName, lastName: lastName  })
   })
 }
+
+function attributesToPhrase(drivers) {
+  
+}
